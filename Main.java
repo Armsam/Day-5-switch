@@ -8,16 +8,16 @@ public class Main {
         System.out.println("Enter number");
         Scanner sc=new Scanner(System.in);
         int num = sc.nextInt();
-        int range = (num-2) / 44;
+        int range = (num-1) / 100;
         switch (range) {
             case 0:
-                System.out.println("Number is in 0-44");
+                System.out.println("Number is in 0-100");
                 break;
             case 1:
-                System.out.println("number is in 45 -> 89 range");;
+                System.out.println("number is in 100 -> 200 range");;
                 break;
             case 2:
-                System.out.println("number is in 90 -> 134 range");
+                System.out.println("number is in 200 -> 300 range");
                 break;
             default:
                 System.out.println("number is in other range");
